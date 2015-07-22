@@ -18,13 +18,13 @@ DISCHARGE_AIR = 42 #[l/min], ref:http://www.airbrush.co.jp/shop/products/detail.
 dVs1 = DISCHARGE_AIR*0.001/60 #[m3/s]
 V = 1/1000.0 #[m3]: tank volume, 1L
 pi = pa
-mi = (pi*V)/(R*T0)
 
 ##### SIMULATION TO CHARGE TANK ##
 t = arange(0.01,100,0.01) # 10 sec 
 dmt = ((pa*dVs1)/(R*T0))       # [kg/s]: mass flow rate at atmospheric pressure 
 V_array = [1/1000.0, 10/1000.0, 20/1000.0]
 for V in V_array:
+    mi = (pi*V)/(R*T0)
     p0 = (((R* T0)/V) * (mi + dmt*t)) * (10**-6) #[MPa]
     p0 = [p if p < 0.5 else 0.5 for p in p0]  # Max 5[MPa]
     plot(t,p0)
