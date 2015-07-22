@@ -23,5 +23,9 @@ p0 = (1 + (((gamma - 1)/2)*(Ae*sigma*sqrt(R * T0i))/V)*t)**((-1)*2*gamma/(gamma-
 
 ##### VISUALIZATION AREA #########
 plot(t,p0*(10**-6))
+title('TANK PRESSURE TRANSITION')
+xlabel('t [sec]')
+ylabel('p0 [MPa]')
+savefig('./image/tank-release.png')
 show()
 
