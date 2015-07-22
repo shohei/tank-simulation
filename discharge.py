@@ -16,16 +16,19 @@ R = 289 # J/(kg dot K)
 V = 1/1000.0 #1L as [m3]
 sigma = sqrt(gamma*((2/(gamma+1))**((gamma+1)/(gamma-1)))) # critical flow efficient
 
-##### SIMULATION FOR 10 SECONDS ##
-t = arange(0.01,10,0.01) # 10 sec 
+##### SIMULATION FOR AIR DISCHARGE FROM TANK ##
+t = arange(0.01,100,0.01) # 100 sec 
 pi = 0.1013*5*(10**6) # 5[MPa]
-p0 = (1 + (((gamma - 1)/2)*(Ae*sigma*sqrt(R * T0i))/V)*t)**((-1)*2*gamma/(gamma-1))*pi
-
+V_array = [1/1000.0,10/1000.0,20/1000.0]
+for V in V_array:
+    p0 = (1 + (((gamma - 1)/2)*(Ae*sigma*sqrt(R * T0i))/V)*t)**((-1)*2*gamma/(gamma-1))*pi
+    plot(t,p0*(10**-6))
+        
 ##### VISUALIZATION AREA #########
-plot(t,p0*(10**-6))
-title('TANK PRESSURE TRANSITION')
+title('TANK PRESSURE TRANSITION BY AIR DISCHARGE')
+legend(('1L','10L','20L'),'upper right')
 xlabel('t [sec]')
 ylabel('p0 [MPa]')
-savefig('./image/tank-release.png')
+savefig('./image/tank-discharge.png')
 show()
 
