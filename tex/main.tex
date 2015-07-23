@@ -1,0 +1,26 @@
+\documentclass{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+
+\begin{document}
+\title{技術資料：スピンドル冷却空気の送出系に関する計算}
+\author{青木翔平}
+\date{平成27年7月23日}
+
+\section{スピンドル冷却系}
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=150mm]{system.pdf}
+ \caption{冷却システム構成図}
+ \label{fig:solar_massage}
+\end{figure}
+
+\begin{eqnarray}
+  \dot{m_c} & = &  \frac{P\dot{V_{s1}}}{RT}  \\
+  \dot{m_d} & = & \frac{p_0 A_e }{\sqrt{R T}}\sigma^{*}
+\end{eqnarray}
+
+\section{参考資料}
+[1] 松尾 一泰, 「圧縮性流体力学―内部流れの理論と解析」, オーム社, 2013
+
+\end{document}
