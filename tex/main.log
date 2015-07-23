@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.9.21)  23 JUL 2015 23:06
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.9.21)  23 JUL 2015 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -111,12 +111,12 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 731 strings out of 493807
- 8406 string characters out of 6151951
- 66434 words of memory out of 5000000
- 4252 multiletter control sequences out of 15000+600000
+ 732 strings out of 493807
+ 8416 string characters out of 6151951
+ 69434 words of memory out of 5000000
+ 4253 multiletter control sequences out of 15000+600000
  10311 words of font info for 47 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  25i,8n,21p,184b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (1 page, 1292 bytes).
+Output written on main.dvi (1 page, 2820 bytes).
