@@ -58,6 +58,6 @@ legend(('1L','10L','20L','30L','40L','50L'),'upper right')
 xlabel('t [sec]')
 ylabel('p0 [MPa]')
 ylim([0,0.6])
-savefig('./image/final_pressure_depends_on_discharge_hole_size.png')
+savefig('./image/final_pressure_depends_on_discharge_hole_size.pdf')
 show()
 
