@@ -2,6 +2,7 @@
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{ascmac}
 \AtBeginDocument{\RequirePackage{lmodern, times}}
+\usepackage{ulem}
 %%%%%%%%%%%%%%%%%
 \usepackage{here}
 \usepackage{txfonts}
@@ -40,7 +41,7 @@
 いま，単位時間あたりに圧縮機からタンクに流入する空気質量を$\dot{m_{c}}$，タンクからスピンドルコントローラに対して流出する空気質量を$\dot{m_{c}}$とおけば，気体の状態方程式及び等エントロピー関係式から以下が成り立つ．
 \begin{eqnarray}
   \dot{m_c} & = &  \frac{P\dot{V_{s1}}}{RT}  \\
-  \dot{m_d} & = & \frac{p_0 A_e }{\sqrt{R T}}\sigma^{*}
+  \dot{m_d} & = & \frac{p_0 A_e }{\sqrt{R T}}\sigma^{*} \label{sigma}
 \end{eqnarray}
 
 
@@ -52,17 +53,17 @@
 \end{eqnarray}
 ただし，
 \begin{eqnarray}
-  k_1 & = & \frac{\sqrt{R T_0} A_e \sigma^{*}}{V}, k_2 = p_a \frac{V_{s1}}{V}, k_3 = p_{0i}
+  k_1 & = & \frac{\sqrt{R T_0} A_e \sigma^{*}}{V}, k_2 = p_a \frac{V_{s1}}{V}, k_3 = p_{a}
 \end{eqnarray}
-$p_0(t)$を2次の項までテーラー展開して数値計算する．
+\sout{ $p_0(t)$を2次の項までテーラー展開して数値計算する}．
+$p_0(t)$に関する差分方程式を解く．
 式(\ref{eqn:diff})を微分して，
 \begin{eqnarray}
-  {p_0}^{\prime}(t) = k_2 - k_1 p_0(t) \\
-  {p_0}^{\prime\prime}(t) = - k_1 {p_0}^{{\prime}}(t) 
+  {p_0}^{\prime}(t) =  k_2 - k_1 p_0(t) 
 \end{eqnarray}
-が求まるから，以下の漸化式から計算すれば良い．
+が求まるから，以下の差分方程式から計算すれば良い．
 \begin{eqnarray}
-{p_0}(t+1) = {p_0}(t) + {p_0}^{\prime}(t) \cdot dt + \frac{1}{2} \cdot {p_0}^{\prime\prime}(t) \cdot (dt)^{2}
+{p_0}(t+1) = {p_0}(t) + {p_0}^{\prime}(t) \cdot dt 
 \end{eqnarray}
 
 
@@ -143,6 +144,19 @@ show()
  \label{fig:result}
 \end{figure}
 
+
+\begin{itembox}[l]{\bf{臨界流れ係数}}
+等エントロピー関係式を用いると，臨界状態（流れのマッハ数＝1）となるときの圧力と全圧の関係は次式で表される．
+\[
+  \frac{p^{{*}}}{p_{0}}= \left( \frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}} = 0.528
+\]
+したがって空気（比熱比$\gamma = 1.4$）が等エントロピー的に膨張するとき，圧力が全圧の$52.8$\%まで減少したところでマッハ数＝1となり，{\bf チョーク}する．
+このときの流量は式(\ref{sigma})で表され，臨界流れ係数$\sigma^{*}$の大きさは
+\[
+\sigma^{{*}}=\sqrt {\gamma \left( \frac{2}{\gamma + 1} \right) ^{\frac{\gamma+1}{\gamma - 1}}} = 0.685
+\]
+である．
+\end{itembox}
 
 \section{参考資料}
 [1] 松尾 一泰, 「圧縮性流体力学―内部流れの理論と解析」, オーム社, 2013

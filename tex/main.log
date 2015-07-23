@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.9.21)  24 JUL 2015 01:18
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.9.21)  24 JUL 2015 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -84,14 +84,26 @@ eX Live/ChoF)
 \@bcal=\count90
 \shaderule=\dimen129
 ))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box49
+\UL@hyphenbox=\box50
+\UL@skip=\skip43
+\UL@hook=\toks17
+\UL@height=\dimen130
+\UL@pe=\count91
+\UL@pixel=\dimen131
+\ULC@box=\box51
+Package: ulem 2012/05/18
+\ULdepth=\dimen132
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/here/here.sty)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count91
-\float@exts=\toks17
-\float@box=\box49
-\@float@everytoks=\toks18
-\@floatcapt=\box50
+\c@float@type=\count92
+\float@exts=\toks18
+\float@box=\box52
+\@float@everytoks=\toks19
+\@floatcapt=\box53
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
@@ -170,24 +182,24 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 LaTeX Info: Redefining \not on input line 1043.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count92
-\lst@gtempboxa=\box51
-\lst@token=\toks19
-\lst@length=\count93
-\lst@currlwidth=\dimen130
-\lst@column=\count94
-\lst@pos=\count95
-\lst@lostspace=\dimen131
-\lst@width=\dimen132
-\lst@newlines=\count96
-\lst@lineno=\count97
-\lst@maxwidth=\dimen133
+\lst@mode=\count93
+\lst@gtempboxa=\box54
+\lst@token=\toks20
+\lst@length=\count94
+\lst@currlwidth=\dimen133
+\lst@column=\count95
+\lst@pos=\count96
+\lst@lostspace=\dimen134
+\lst@width=\dimen135
+\lst@newlines=\count97
+\lst@lineno=\count98
+\lst@maxwidth=\dimen136
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-\c@lstnumber=\count98
-\lst@skipnumbers=\count99
-\lst@framebox=\box52
+\c@lstnumber=\count99
+\lst@skipnumbers=\count100
+\lst@framebox=\box55
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2014/03/04 1.5c listings configuration
@@ -196,7 +208,7 @@ Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
 (./jlisting.sty
 Package: jlisting 2006/02/20 0.2 (Thor)
-\lst@nextchar=\count100
+\lst@nextchar=\count101
 \lst@inputfile=\read1
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -205,48 +217,48 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 25.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 25.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 26.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 26.
 
  (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 26.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 26.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 26.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 (I search kanjifont definition file: . . ) (I search font definition file: . .
 . . . . . )
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 25.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 26.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
@@ -288,79 +300,79 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-\c@lstlisting=\count101
+\c@lstlisting=\count102
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 29.
+(Font)              scaled to size 16.60605pt on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 29.
+(Font)              scaled to size 16.60605pt on input line 30.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 29.
+(Font)              scaled to size 11.53198pt on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 29.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 29.
+(Font)              scaled to size 11.53198pt on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 30.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 29.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 30.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 30.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 29.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 30.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 29.
+(Font)              <12> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 29.
+(Font)              <8> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 29.
+(Font)              <6> on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 29.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 29.
+(Font)              scaled to size 5.76599pt on input line 30.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 30.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 29.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 30.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 29.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 30.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 29.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 30.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 31.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 32.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 31.
+(Font)              scaled to size 13.83836pt on input line 32.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 31.
+(Font)              scaled to size 13.83836pt on input line 32.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 31.
+(Font)              scaled to size 13.83836pt on input line 32.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 31.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 31.
+(Font)              scaled to size 13.83836pt on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -368,70 +380,81 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 File: system.pdf Graphic file (type pdf)
  <system.pdf>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 36.
+(Font)              scaled to size 8.64899pt on input line 37.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 36.
+(Font)              scaled to size 8.64899pt on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 40.
+(Font)              <10> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 40.
+(Font)              <7> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 40.
+(Font)              <5> on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 40.
+(Font)              scaled to size 6.72699pt on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 40.
+(Font)              scaled to size 4.805pt on input line 41.
 
 [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 69.
+(Font)              scaled to size 9.60999pt on input line 70.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 69.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 69.
+(Font)              scaled to size 9.60999pt on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 70.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 69.
+(Font)              scaled to size 6.72699pt on input line 70.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 69.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 70.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 70.
+(Font)              scaled to size 6.72699pt on input line 71.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 71.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 70.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 70.
+(Font)              scaled to size 6.72699pt on input line 71.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <7> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 70.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 70.
+(Font)              scaled to size 6.72699pt on input line 71.
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <7> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 73.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 73.
+(Font)              scaled to size 6.72699pt on input line 74.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <7> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 73.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 73.
+(Font)              scaled to size 6.72699pt on input line 74.
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <7> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 73.
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 74.
  [2]
 File: result.pdf Graphic file (type pdf)
 
-<result.pdf> [3] (./main.aux) ) 
+<result.pdf>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 148.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 148.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 148.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 148.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 148.
+ [3] [4] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3289 strings out of 493807
- 43598 string characters out of 6151951
- 174513 words of memory out of 5000000
- 6681 multiletter control sequences out of 15000+600000
- 49066 words of font info for 124 fonts, out of 8000000 for 9000
+ 3376 strings out of 493807
+ 44468 string characters out of 6151951
+ 174591 words of memory out of 5000000
+ 6762 multiletter control sequences out of 15000+600000
+ 49691 words of font info for 126 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,11n,40p,241b,1202s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (3 pages, 17436 bytes).
+Output written on main.dvi (4 pages, 19016 bytes).
